@@ -1,4 +1,7 @@
-public class Movie {
+package br.com.screnMatch.models;
+
+public class Titulo {
+
     private String name;
     private int anoDeLancamento;
     private boolean incluindoPLano;
@@ -24,14 +27,14 @@ public class Movie {
     }
 
 
-    public Movie() {
+    public Titulo() {
     }
 
     public String getName() {
         return name;
     }
 
-    public Movie setName(String name) {
+    public Titulo setName(String name) {
         this.name = name;
         return this;
     }
@@ -40,7 +43,7 @@ public class Movie {
         return anoDeLancamento;
     }
 
-    public Movie setAnoDeLancamento(int anoDeLancamento) {
+    public Titulo setAnoDeLancamento(int anoDeLancamento) {
         this.anoDeLancamento = anoDeLancamento;
         return this;
     }
@@ -49,7 +52,7 @@ public class Movie {
         return incluindoPLano;
     }
 
-    public Movie setIncluindoPLano(boolean incluindoPLano) {
+    public Titulo setIncluindoPLano(boolean incluindoPLano) {
         this.incluindoPLano = incluindoPLano;
         return this;
     }
@@ -58,7 +61,7 @@ public class Movie {
         return SomaAvaliacao;
     }
 
-    public Movie setAvaliacao(double SomaAvaliacao) {
+    public Titulo setAvaliacao(double SomaAvaliacao) {
         this.SomaAvaliacao = SomaAvaliacao;
         return this;
     }
@@ -67,7 +70,7 @@ public class Movie {
         return totalDeAvaliacoes;
     }
 
-    public Movie setTotalDeAvaliacoes(int totalDeAvaliacoes) {
+    public Titulo setTotalDeAvaliacoes(int totalDeAvaliacoes) {
         this.totalDeAvaliacoes = totalDeAvaliacoes;
         return this;
     }
@@ -76,20 +79,9 @@ public class Movie {
         return duracaoEmMinutos;
     }
 
-    public Movie setDuracaoEmMinutos(int duracaoEmMinutos) {
+    public Titulo setDuracaoEmMinutos(int duracaoEmMinutos) {
         this.duracaoEmMinutos = duracaoEmMinutos;
         return this;
     }
 
-    @Override
-    public String toString() {
-        return "Movie{" +
-                "\nname='" + name + '\'' +
-                ", \nanoDeLancamento=" + anoDeLancamento +
-                ", \nincluindoPLano=" + incluindoPLano +
-                ", \nSomaAvaliacao=" + SomaAvaliacao +
-                ", \ntotalDeAvaliacoes=" + totalDeAvaliacoes +
-                ", \nduracaoEmMinutos=" + duracaoEmMinutos +
-                '}';
-    }
 }

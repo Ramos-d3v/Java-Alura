@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/challenges/FirstApplication/FirstApplication.iml" filepath="$PROJECT_DIR$/challenges/FirstApplication/FirstApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/porjects/ScreanMatch/ScreanMatch.iml" filepath="$PROJECT_DIR$/porjects/ScreanMatch/ScreanMatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/alura.iml" filepath="$PROJECT_DIR$/.idea/alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/DESAFIOS/aula3/aula3.iml" filepath="$PROJECT_DIR$/challenges/DESAFIOS/aula3/aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/DESAFIOS/aula4/aula4.iml" filepath="$PROJECT_DIR$/challenges/DESAFIOS/aula4/aula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/porjects/catalogoFilmes/catalogoFilmes.iml" filepath="$PROJECT_DIR$/porjects/catalogoFilmes/catalogoFilmes.iml" />
+    </modules>
+  </component>
+</project>
